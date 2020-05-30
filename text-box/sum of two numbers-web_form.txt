@@ -1,0 +1,32 @@
+//To create a web page that displays the sum of two numbers
+
+<HTML>
+<HEAD> <TITLE>Javascript - Sum</TITLE>
+<SCRIPT Language= "JavaScript">
+function showSum()
+{
+var num1, num2, ans;
+num1 = document.frmSum.txtNum1.value;
+num2 = document.frmSum.txtNum2.value;
+ans = num1 + num2;
+document.frmSum.txtSum.value = ans;
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM Name= "frmSum">
+<CENTER>
+Enter a Number 1
+<INPUT Type= "text" Name= "txtNum1">
+<BR><BR>
+Enter a Number 2
+<INPUT Type= "text" Name= "txtNum2">
+<BR><BR>
+The sum is
+<INPUT Type= "text" Name= "txtSum">
+<BR><BR>
+<INPUT Type= "button" Value= "Show" onClick= "showSum()">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

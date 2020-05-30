@@ -1,0 +1,31 @@
+//To create a web page that displays sum of numbers upto a
+given limit
+
+<HTML>
+<HEAD> <TITLE>Javascript - Sum</TITLE>
+<SCRIPT Language= "JavaScript">
+function sumLimit()
+{
+var sum = 0, i, limit;
+limit = Number(document.frmSum.txtLimit.value);
+for(i = 1; i <= limit; i++)
+sum += i;
+document.frmSum.txtSum.value = sum;
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM Name= "frmSum">
+<CENTER>
+Enter the limit
+<INPUT Type= "text" Name= "txtLimit">
+<BR><BR>
+Sum of Numbers
+<INPUT Type= "text" Name= "txtSum">
+<BR><BR>
+<INPUT Type= "button" Value= "Show"
+onClick= "sumLimit()">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

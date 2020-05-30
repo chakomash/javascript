@@ -1,0 +1,53 @@
+//To create a web page that validates name and age
+
+<HTML>
+<HEAD> <TITLE>Javascript - Validation</TITLE>
+<SCRIPT Language= "JavaScript">
+function checkData()
+{
+var T_name, T_age, N_age;
+T_name = document.frmValid.txtName.value;
+if (T_name == "")
+{
+alert("Please enter name!");
+return;
+}
+if (T_name.length < 5)
+{
+alert("Name must contain at least 5 characters!");
+return;
+}
+T_age = document.frmValid.txtAge.value;
+if (T_age == "")
+{
+alert("Please enter age!");
+return;
+}
+if (isNaN(T_age))
+{
+alert("Please enter a number as the age!");
+return;
+}
+N_age = Number(T_age);
+if (N_age < 15 || N_age > 20)
+{
+alert("The age must be between 15 and 20!");
+return;
+}
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM Name= "frmValid">
+<CENTER>Name
+<INPUT Type= "text" Name= "txtName">
+<BR><BR>
+Age
+<INPUT Type= "text" Name= "txtAge">
+<BR><BR>
+<INPUT Type= "button" Value= "Save"
+onClick= "checkData()">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

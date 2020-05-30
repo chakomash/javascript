@@ -1,0 +1,47 @@
+//External javascript file
+
+(checkdata.js)-->external-file
+
+function checkData()
+{
+var rno;
+rno = document.frmValid.txtRegno.value;
+if (rno == "")
+{
+alert("Please enter Register No.");
+return;
+}
+if (isNaN(rno))
+{
+alert("Invalid Register No.");
+return;
+}
+if (rno.length < 7)
+{
+alert("The Register No. must have 7 digits");
+return;
+}
+
+Note that this file contains only JavaScript code and does not contain <SCRIPT>
+tag. <SCRIPT> tag is used inside the HTML file only. The file can be linked to
+HTML file using the <SCRIPT> tag. The Type attribute specifies that the linked
+file is a JavaScript file and the Src attribute specifies the location and file name of
+the external JavaScript file. The modified HTML code is given below.
+
+<HTML>
+<HEAD><TITLE>Javascript - Validation</TITLE>
+<SCRIPT Type= "text/JavaScript" Src= "checkdata.js">
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM Name= "frmValid">
+<CENTER>
+<BR>Enter Register Number
+<INPUT Type= "text" Name= "txtRegno">
+<BR><BR>
+<INPUT Type= "button" Value= "Get Result"
+onClick= "checkData()">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,18 @@
+//To create a web page that displays a web form
+
+<HTML>
+<HEAD> <TITLE>Javascript - Text box</TITLE> </HEAD>
+<BODY>
+<FORM Name= "frmSquare">
+<CENTER>
+Enter a Number
+<INPUT Type= “text" Name= "txtNum">
+<BR><BR>
+Square is
+<INPUT Type= "text" Name= "txtSqr">
+<BR><BR>
+<INPUT Type= "button" Value= "Show">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+//To create a web page that displays the square of a number
+
+<HTML>
+<HEAD> <TITLE>Javascript - Text box</TITLE>
+<SCRIPT Language= "JavaScript">
+function showSquare()
+{
+var num, ans;
+num = document.frmSquare.txtNum.value;
+ans = num * num;
+document.frmSquare.txtSqr.value = ans;
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM Name= "frmSquare">
+<CENTER>
+Enter a Number
+<INPUT Type= "text" Name= "txtNum">
+<BR><BR>
+Square is
+<INPUT Type= "text" Name= "txtSqr">
+<BR><BR>
+<INPUT Type= "button" Value= "Show"
+onClick= "showSquare()">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,46 @@
+//To create a web page that displays the capital of a State
+
+<HTML>
+<HEAD> <TITLE>Javascript - switch</TITLE>
+<SCRIPT Language= "JavaScript">
+function capital()
+{
+var n, answer;
+n = document.frmCapital.cboState.selectedIndex;
+switch (n)
+{
+case 0:
+answer = "Thiruvananthapuram";
+break;
+case 1:
+answer = "Bengaluru";
+break;
+case 2:
+answer = "Chennai";
+break;
+case 3:
+answer = "Mumbai";
+break;
+}
+document.frmCapital.txtCapital.value = answer;
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM Name= "frmCapital">
+<CENTER> State
+<SELECT Size= 1 Name= "cboState">
+<OPTION>Kerala</OPTION>
+<OPTION>Karnataka</OPTION>
+<OPTION>Tamilnadu</OPTION>
+<OPTION>Maharashtra</OPTION>
+</SELECT>
+<BR><BR>
+Capital
+<INPUT Type= "text" Name= "txtCapital">
+<BR><BR>
+<INPUT Type= "button" Value= "Show" onClick= "capital()">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
