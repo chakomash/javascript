@@ -1,0 +1,16 @@
+<HTML>
+<HEAD> <TITLE>Javascript - Welcome</TITLE> </HEAD>
+<BODY>
+<H1>
+<SCRIPT Language= "JavaScript">
+document.write("This is in H1 Head");
+</SCRIPT>
+</H1>
+<BR>
+<H2>
+<SCRIPT Language= "JavaScript">
+document.write("This is in H2 Head");
+</SCRIPT>
+</H2>
+</BODY>
+</HTML>

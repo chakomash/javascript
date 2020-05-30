@@ -1,0 +1,3 @@
+//alert () funtion
+
+alert(“Welcome to JavaScript”);

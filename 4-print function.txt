@@ -1,0 +1,13 @@
+<!-- to create a web page containing print() function-->
+<HTML>
+<HEAD> <TITLE>Javascript - Functions</TITLE>
+<SCRIPT Language= "JavaScript">
+function print()
+{
+document.write("Welcome to JavaScript.");
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+</BODY>
+</HTML>

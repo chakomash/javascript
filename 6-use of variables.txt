@@ -1,0 +1,26 @@
+//To illustrate the use of variables
+<HTML>
+<HEAD> <TITLE>Javascript - Variables</TITLE> </HEAD>
+<BODY>
+<SCRIPT Language= "JavaScript">
+var a, b, c, d, e, f;
+a = 25;
+b = 18.5;
+c = "INDIA";
+d = true;
+e = "true";
+document.write("a is of type : ");
+document.write(typeof(a));
+document.write("<BR>b is of type : ");
+document.write(typeof(b));
+document.write("<BR>c is of type : ");
+document.write(typeof(c));
+document.write("<BR>d is of type : ");
+document.write(typeof(d));
+document.write("<BR>e is of type : ");
+document.write(typeof(e));
+document.write("<BR>f is of type : ");
+document.write(typeof(f));
+</SCRIPT>
+</BODY>
+</HTML>

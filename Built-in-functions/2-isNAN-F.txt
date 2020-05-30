@@ -1,0 +1,8 @@
+//isNaN() function
+
+alert(isNaN(“A”));
+
+This function is used to check whether a value is a number or not. In this function,
+NaN stands for Not a Number. The function returns true if the given value is not
+a number
+

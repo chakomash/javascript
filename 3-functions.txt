@@ -1,0 +1,33 @@
+Creating functions in JavaScript
+
+function print()
+{
+document.write(“Welcome to JavaScript.”);
+}
+
+Here, the keyword function is used to define a function. The word print that
+follows, is the name of the function. The function name can be any valid identifier.
+JavaScript uses the same rules for naming identifiers as in C++. Here the print()
+function contains only one statement. We can include any number of statements
+inside a function.
+Defining a function does not execute the function automatically. It must be called
+for its execution. This means that even if we define a function in a web page and do
+not call the function, the function will not be executed at all. The function can be
+called by using the function name as follows:
+print();
+Note the semicolon after the function name. Now let us make use of the above
+print()function in an HTML page
+
+Now let us see the syntax of a JavaScript function.
+function function_name()
+{
+statements;
+}
+
+Here the line function function_name()is called the function header and
+the code within the braces { and } is called function body. The main difference
+from C++ is that, in JavaScript there is no return type, whereas in C++ the function
+has a return type. In JavaScript also, we can return some value from a function as in
+C++. Since this chapter is meant to give only a basic idea about the use of JavaScript,
+we do not discuss them for the time being. Another difference is that, C++ does
+not use the keyword function to define a function, but JavaScript does.

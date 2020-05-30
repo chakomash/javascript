@@ -1,0 +1,11 @@
+//charAt() function
+
+It returns the character at a particular position. charAt(0) returns the first character
+in the string. charAt(1) returns the second character in the string and so on. Look
+at the following example code.
+var x;
+x = “JavaScript”;
+y = x.charAt(4);
+alert(y);
+
+output:s

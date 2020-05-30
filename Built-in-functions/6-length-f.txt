@@ -1,0 +1,11 @@
+//length property
+
+Besides functions, a string variable also provides some properties which are of use
+to programmers. length property returns the length of the string. length means,
+the number of characters in the string. For example,
+var x, n;
+x = “JavaScript”;
+n = x.length;
+alert(n);
+
+output:10

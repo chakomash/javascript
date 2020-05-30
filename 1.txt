@@ -1,0 +1,9 @@
+<!-- To create a web page using javascript
+<HTML>
+<HEAD> <TITLE>Javascript - Welcome</TITLE> </HEAD>
+<BODY>
+<SCRIPT Language= "JavaScript">
+document.write("Welcome to JavaScript.");
+</SCRIPT>
+</BODY>
+</HTML>

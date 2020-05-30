@@ -1,0 +1,19 @@
+Variables in javascript
+
+var x;
+Here x is the name of the variable. Like C++, a variable can be given any name, as
+you like, with only one restriction, that it must be a valid identifier. We have used
+the keywords int, float, char, etc. to declare different types of variables in
+C++. But, in JavaScript, the same keyword, var is used to declare all type of variables
+
+In JavaScript, merely declaring a variable does not define the variable. The variable
+definition is complete only when it is assigned a value. JavaScript understands the
+type of variable only when a value is assigned to that variable. Consider the following
+declaration.
+var x, y;
+x = 25;
+y = “INDIA”;
+In the above example, the variable x is of number type and y is of string type. Even
+though we say that x is of number type and y is of string type, note that we do not
+specify them in code segments. The following example explains how JavaScript
+defines variables.

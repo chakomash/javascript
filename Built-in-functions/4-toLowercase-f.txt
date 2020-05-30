@@ -1,0 +1,9 @@
+//toLowerCase() function
+
+It returns the lower case form of the given string
+
+var x, y;
+x = “JavaScript”;
+y = x.toLowerCase();
+alert(y);
+

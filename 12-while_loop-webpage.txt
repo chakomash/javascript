@@ -1,0 +1,17 @@
+//To create a web page that displays even numbers upto 10
+
+<HTML>
+<HEAD> <TITLE>Javascript - while</TITLE> </HEAD>
+<BODY>
+<SCRIPT Language= "JavaScript">
+var i;
+i = 2;
+while (i<=10)
+{
+document.write(i);
+document.write("<BR>");
+i += 2;
+}
+</SCRIPT>
+</BODY>
+</HTML>

@@ -1,0 +1,22 @@
+//To create a web page to find the sum of two numbers
+
+<HTML>
+<HEAD><TITLE>Javascript - Variables</TITLE>
+<SCRIPT Language= "JavaScript">
+function add()
+{
+var m, n, sum;
+m = 20;
+n = 10;
+sum = m + n;
+document.write("Sum = ");
+document.write(sum);
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT Language= "JavaScript">
+add();
+</SCRIPT>
+</BODY>
+</HTML>

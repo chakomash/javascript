@@ -1,0 +1,16 @@
+//To create a web page to display the squares of first 10 numbers
+
+<HTML>
+<HEAD> <TITLE>Javascript - for</TITLE> </HEAD>
+<BODY>
+<SCRIPT Language= "JavaScript">
+var i, s;
+for (i=1; i<=10; i++)
+{
+s = i*i;
+document.write(s);
+document.write("<BR>");
+}
+</SCRIPT>
+</BODY>
+</HTML>

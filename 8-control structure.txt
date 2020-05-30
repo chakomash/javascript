@@ -1,0 +1,51 @@
+//Control structures in JavaScript
+
+//if
+
+./Syntax of simple if
+
+if (test_expression)
+{
+statements;
+}
+
+./Syntax of if with else part
+
+if (test_expression)
+{
+statements;
+}
+else
+{
+statements;
+}
+
+//switch
+
+switch (expression)
+{
+case value1:
+statements;
+break;
+case value2:
+statements;
+break;
+.................
+.................
+default:
+statements;
+}
+
+//for loop
+
+for(initialisation; test_expression; update_statement)
+{
+statements;
+}
+
+//while loop
+
+while (test_expression)
+{
+statements;
+}

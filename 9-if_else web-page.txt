@@ -1,0 +1,18 @@
+//To create a web page that checks whether a student has passed or not
+<HTML>
+<HEAD> <TITLE>Javascript - if</TITLE> </HEAD>
+<BODY>
+<SCRIPT Language= "JavaScript">
+var score;
+score = 35;
+if (score < 30)
+{
+document.write("The student is failed.");
+}
+else
+{
+document.write("The student is passed.");
+}
+</SCRIPT>
+</BODY>
+</HTML>

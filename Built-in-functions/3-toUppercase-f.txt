@@ -1,0 +1,9 @@
+//toUpperCase() function
+
+var x, y;
+x = “JavaScript”;
+y = x.toUpperCase();
+alert(y);
+
+This function returns the upper case form of the given string. Look at the following
+example code:
